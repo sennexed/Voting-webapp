@@ -1,0 +1,3 @@
+# Database file for the Voting web application
+
+# Database connection and functionality details will go here...
