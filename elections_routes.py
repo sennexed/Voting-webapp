@@ -1,0 +1,1 @@
+from fastapi import APIRouter\n\nrouter = APIRouter()\n\n@router.get("/elections/")\ndef get_elections():\n    return {"message": "List of elections"}\n\n@router.post("/elections/")\ndef create_election(election: dict):\n    return {"message": "Election created", "election": election}
